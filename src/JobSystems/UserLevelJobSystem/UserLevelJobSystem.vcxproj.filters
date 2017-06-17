@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\UMS">
+      <UniqueIdentifier>{6b6d6572-255c-4f37-b52c-a05314a3ed59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UMS">
+      <UniqueIdentifier>{89efa6df-0823-4715-80f9-a079ab3729b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Job">
+      <UniqueIdentifier>{d477f31a-db30-4906-b085-9904782e1925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Job">
+      <UniqueIdentifier>{02a03ee6-0e8a-47fa-9d6e-f4105b4405a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameEngine">
+      <UniqueIdentifier>{241c8888-c1e5-48c9-bd40-9eb65b95ce1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine">
+      <UniqueIdentifier>{b5dbbf25-0a20-4971-af0a-abfba5b9c3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fiber">
+      <UniqueIdentifier>{c24a9606-1d6d-4788-a65a-d8ec891f8e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fiber">
+      <UniqueIdentifier>{4476cbe8-2e1e-434c-a495-a1824f73935a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KernelLevel_w_KernelWorkers">
+      <UniqueIdentifier>{5a237bd1-eb23-4640-bab0-8587295c3718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KernelLevel_w_KernelWorkers">
+      <UniqueIdentifier>{9b1b0b45-81c4-4079-88b7-34794cf5f03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KernelThread">
+      <UniqueIdentifier>{9250e6bc-87a6-4fa9-8cee-b4f81c0b5856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KernelThread">
+      <UniqueIdentifier>{1478a902-0964-474b-b3dd-ca0829f1f261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExpensiveSectionApproach">
+      <UniqueIdentifier>{a8e43c1c-0262-41da-a1da-0cced11cb4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExpensiveSectionApproach">
+      <UniqueIdentifier>{497bce10-e87d-4049-a8e5-24d55181f0d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadingUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemA.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="UserLevelImplementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FiberSchedulerThread.h">
+      <Filter>Header Files\Fiber</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemB.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemC.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>Header Files\KernelLevel_w_KernelWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelSchedulerThread.h">
+      <Filter>Header Files\KernelLevel_w_KernelWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelWorkerThread.h">
+      <Filter>Header Files\KernelLevel_w_KernelWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugStatics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelThreadScheduler.h">
+      <Filter>Header Files\KernelThread</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelThreadWorker.h">
+      <Filter>Header Files\KernelThread</Filter>
+    </ClInclude>
+    <ClInclude Include="FiberTest.h">
+      <Filter>Header Files\Fiber</Filter>
+    </ClInclude>
+    <ClInclude Include="UMSTest.h">
+      <Filter>Header Files\UMS</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelLevel_w_KernelWorkersTest.h">
+      <Filter>Header Files\KernelLevel_w_KernelWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelThreadTest.h">
+      <Filter>Header Files\KernelThread</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpensiveSystemX.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpensiveSystemY.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpensiveSystemZ.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AssistantKernelWorkerThread.h">
+      <Filter>Header Files\ExpensiveSectionApproach</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpensiveSection.h">
+      <Filter>Header Files\ExpensiveSectionApproach</Filter>
+    </ClInclude>
+    <ClInclude Include="FiberScheduler.h">
+      <Filter>Header Files\Fiber</Filter>
+    </ClInclude>
+    <ClInclude Include="FiberScheduler_ExpensiveSection.h">
+      <Filter>Header Files\ExpensiveSectionApproach</Filter>
+    </ClInclude>
+    <ClInclude Include="FiberSchedulerThread_ExpensiveSection.h">
+      <Filter>Header Files\ExpensiveSectionApproach</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>Header Files\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="JobManager.h">
+      <Filter>Header Files\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="FiberWorker.h">
+      <Filter>Header Files\Fiber</Filter>
+    </ClInclude>
+    <ClInclude Include="DependencySystemH.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DependencySystemI.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DependencySystemJ.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserLevelJobSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadingUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemA.cpp">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="FiberScheduler.cpp">
+      <Filter>Source Files\Fiber</Filter>
+    </ClCompile>
+    <ClCompile Include="UserLevelImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FiberSchedulerThread.cpp">
+      <Filter>Source Files\Fiber</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemB.cpp">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemC.cpp">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>Source Files\KernelLevel_w_KernelWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelSchedulerThread.cpp">
+      <Filter>Source Files\KernelLevel_w_KernelWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelWorkerThread.cpp">
+      <Filter>Source Files\KernelLevel_w_KernelWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugStatics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelThreadScheduler.cpp">
+      <Filter>Source Files\KernelThread</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelThreadWorker.cpp">
+      <Filter>Source Files\KernelThread</Filter>
+    </ClCompile>
+    <ClCompile Include="FiberTest.cpp">
+      <Filter>Source Files\Fiber</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelLevel_w_KernelWorkersTest.cpp">
+      <Filter>Source Files\KernelLevel_w_KernelWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="UMSTest.cpp">
+      <Filter>Source Files\UMS</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelThreadTest.cpp">
+      <Filter>Source Files\KernelThread</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpensiveSystemX.cpp">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpensiveSystemY.cpp">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpensiveSystemZ.cpp">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistantKernelWorkerThread.cpp">
+      <Filter>Source Files\ExpensiveSectionApproach</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpensiveSection.cpp">
+      <Filter>Source Files\ExpensiveSectionApproach</Filter>
+    </ClCompile>
+    <ClCompile Include="FiberScheduler_ExpensiveSection.cpp">
+      <Filter>Source Files\ExpensiveSectionApproach</Filter>
+    </ClCompile>
+    <ClCompile Include="FiberSchedulerThread_ExpensiveSection.cpp">
+      <Filter>Source Files\ExpensiveSectionApproach</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>Source Files\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="JobManager.cpp">
+      <Filter>Source Files\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="FiberWorker.cpp">
+      <Filter>Source Files\Fiber</Filter>
+    </ClCompile>
+    <ClCompile Include="DependencySystemH.cpp">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DependencySystemI.cpp">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DependencySystemJ.cpp">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
