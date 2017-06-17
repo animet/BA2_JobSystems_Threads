@@ -1,0 +1,5 @@
+purekernel,hybrid
+open,open
+Sleep,std::string::append
+mkdir,SwitchToFiber
+close,Sleep
