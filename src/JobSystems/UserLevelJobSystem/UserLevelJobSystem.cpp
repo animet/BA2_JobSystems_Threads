@@ -38,6 +38,9 @@ int main()
 	UMSTest utest;
 	utest.execute();*/
 
+	//For usage:
+	getch();
+
     return 0;
 }
 

@@ -33,4 +33,4 @@
 #include "UserLevelImplementation.h"
 
 //#define JOBSYSTEM_DEBUG_LOG 1
-#define USE_STEPS_FOR_MEMORY_ANALYSIS 1
+//#define USE_STEPS_FOR_MEMORY_ANALYSIS 1
